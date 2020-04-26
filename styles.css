@@ -125,8 +125,6 @@ nav a:visited:active {
   opacity: 0.9;
   display: flex;
   flex-direction: row;
-
-  border: 3px solid yellow;
 }
 
 .homecontainer {
@@ -138,8 +136,6 @@ nav a:visited:active {
   text-align: center;
 
   position: relative;
-
-  border: 5px solid violet;
 }
 
 .hometitle {
@@ -152,8 +148,6 @@ nav a:visited:active {
   color: #FFF;
   text-shadow: 5px 5px 10px rgb(50, 50, 50);
   position: relative;
-
-  border: 2px solid pink;
 }
 
 .homelogo {
@@ -166,8 +160,6 @@ nav a:visited:active {
   margin: auto;
   top: 0;
   bottom: 0;
-
-  border: 2px solid white;
 }
 
 .elementcontainer {
@@ -178,12 +170,6 @@ nav a:visited:active {
 
   line-height: 50px;
   text-align: center;
-
-  border: 5px solid aqua;
-}
-
-.elementgroupprop {
-  border: 5px solid red;
 }
 
 .textcontainer {
@@ -193,8 +179,6 @@ nav a:visited:active {
   align-items: center;
 
   line-height: 50px;
-
-  border: 5px solid lime;
 }
 
 .containertextprop {
@@ -205,8 +189,6 @@ nav a:visited:active {
   font-weight: lighter;
   color: #FFF;
   text-shadow: 5px 5px 10px rgb(50, 50, 50);
-
-  border: 5px solid pink;
 }
 
 .lefttitle {
@@ -238,6 +220,18 @@ p {
 .btngroup:hover{
   opacity: 0.5;
 }
+
+/*
+.section { border: 3px solid yellow; }
+.homecontainer { border: 5px solid violet; }
+.hometitle { border: 2px solid pink; }
+.homelogo {  border: 2px solid white; }
+.elementcontainer {  border: 5px solid aqua; }
+.elementgroupprop {  border: 5px solid red; }
+.textcontainer {  border: 5px solid lime; }
+.containertextprop {  border: 5px solid pink; }
+.videoprop { border: 2px solid green; }
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -440,14 +434,10 @@ p {
     display: flex;
     flex-direction: column;
     position: absolute;
-
-    border: 2px solid red;
   }
 
   .photoprop {
     width: 15vw;
-    -webkit-filter: drop-shadow( 20px 20px 8px rgba(0, 0, 0, .5));
-    border-radius: 5px;
   }
 
   .photogroup1pos {
@@ -475,11 +465,6 @@ p {
     left: 45vw;
   }
 
-  .videoprop {
-    -webkit-filter: drop-shadow( 20px 20px 8px rgba(0, 0, 0, .5));
-    border: 2px solid green;
-  }
-
   .videogroup1pos {
     top: 9.3vh;
     left: 5vw;
@@ -505,8 +490,6 @@ p {
 
   .smallphotoprop {
     width: 10vw;
-    -webkit-filter: drop-shadow( 20px 20px 8px rgba(0, 0, 0, .5));
-    border-radius: 5px;
   }
 
   .graphic1pos {
@@ -536,8 +519,6 @@ p {
 
   .siteprop {
     width: 21vw;
-    -webkit-filter: drop-shadow( 20px 20px 8px rgba(0, 0, 0, .5));
-    border-radius: 5px;
   }
 
   .site1pos {
