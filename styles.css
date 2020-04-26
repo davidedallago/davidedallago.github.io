@@ -412,6 +412,13 @@ p { border: 2px solid orange; }
     width: 100vw;
     z-index: 100;
   }
+  .rightalign {
+    text-align: center;
+  }
+
+  .leftalign {
+    text-align: center;
+  }
   .section {
     height: auto;
     width: 100vw;
@@ -445,7 +452,7 @@ p { border: 2px solid orange; }
   }
 
   .textcontainer {
-    height: 20vh;
+    height: 70vh;
     width: 100vw;
   }
   .containertextprop {
