@@ -146,7 +146,7 @@ nav a:visited:active {
   font-size: 60px;
   line-height: 100px;
   letter-spacing: 20px;
-  font-weight: lighter;
+  font-weight: 200;
   color: #FFF;
   text-shadow: 20px 20px 8px rgba(0, 0, 0, 1);
   position: relative;
