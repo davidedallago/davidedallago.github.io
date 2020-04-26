@@ -455,28 +455,28 @@ p {
   }
 
   .photogroup1pos {
-    top: 27vh;
-    left: 1.5vw;
+    top: 55vh;
+    left: 2vw;
   }
   .photogroup2pos {
-    top: 13vh;
-    left: 15vw;
+    top: 10vh;
+    left: 2vw;
   }
   .photogroup3pos {
-    top: 51vh;
+    top: 55vh;
     left: 20vw;
   }
   .photogroup4pos {
-    top: 5vh;
-    left: 32vw;
+    top: 10vh;
+    left: 20vw;
   }
   .photogroup5pos {
-    top: 58vh;
+    top: 55vh;
     left: 40vw;
   }
   .photogroup6pos {
-    top: 23vh;
-    left: 45vw;
+    top: 10vh;
+    left: 40vw;
   }
 
   .videogroup1pos {
@@ -507,27 +507,27 @@ p {
   }
 
   .graphic1pos {
-    top: 15.7vh;
-    left: 6.3vw;
+    top: 15vh;
+    left: 6vw;
   }
   .graphic2pos {
-    top: 51vh;
-    left: 6.3vw;
+    top: 50vh;
+    left: 6vw;
   }
   .graphic3pos {
-    top: 18.5vh;
+    top: 15vh;
     left: 25vw;
   }
   .graphic4pos {
-    top: 53.7vh;
+    top: 50vh;
     left: 25vw;
   }
   .graphic5pos {
-    top: 15.7vh;
+    top: 15vh;
     left: 44vw;
   }
   .graphic6pos {
-    top: 49vh;
+    top: 50vh;
     left: 44vw;
   }
 
@@ -536,22 +536,22 @@ p {
   }
 
   .site1pos {
-    top: 12vh;
-    left: 6.3vw;
+    top: 15vh;
+    left: 6vw;
   }
 
   .site2pos {
-    top: 53.7vh;
-    left: 6.3vw;
+    top: 55vh;
+    left: 6vw;
   }
 
   .site3pos {
-    top: 14.8vh;
+    top: 15vh;
     left: 32vw;
   }
 
   .site4pos {
-    top: 56.5vh;
+    top: 55vh;
     left: 32vw;
   }
 }
