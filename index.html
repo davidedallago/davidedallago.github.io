@@ -1,7 +1,190 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Davide Dal Lago</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <meta name='viewport'
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  </head>
+  <body>
+
+    <!-- Used this div to set a static background on the site -->
+    <div class="background">
+    </div>
+
+    <!-- First we have the header of the site containing the navbar and the introsection of the site-->
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <ul>
+          <li class='selected'>Home</li>
+          <li><a href='#photosection'>Foto</a></li>
+          <li><a href='#videosection'>Video</a></li>
+          <li><a href='#graphicsection'>Grafica</a></li>
+          <li><a href='#webdessection'>WebDesign</a></li>
+          <li><a href='#singupsection'>Contatti</a></li>
+        </ul>
+      </nav>
+
+      <!-- Intro section -->
+      <div class="section">
+
+        <div class='homecontainer' id="navbarsec">
+          <h1 class="hometitle">DAVIDE<br>DAL LAGO</h1>
+        </div>
+
+        <div class='homecontainer'>
+          <img class="homelogo" src='images/logo-home.svg'/>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Here start the various sections of the site -->
+    <div class='page'>
+
+      <!-- First section: PHOTO -->
+      <div class="section" id="photosection">
+
+        <div class='elementcontainer'>
+          <div class="elementgroupprop photogroup1pos">
+            <img class="photoprop shadowprop" src='images/img-urban.jpg'/>
+            <p>URBAN</p>
+          </div>
+          <div class="elementgroupprop photogroup2pos">
+            <img class="photoprop shadowprop" src='images/img-portrait.jpg'/>
+            <p>PORTRAIT</p>
+          </div>
+          <div class="elementgroupprop photogroup3pos">
+            <img class="photoprop shadowprop" src='images/img-nature.jpg'/>
+            <p>NATURE</p>
+          </div>
+          <div class="elementgroupprop photogroup4pos">
+            <img class="photoprop shadowprop" src='images/img-modelling.jpg'/>
+            <p>MODEL</p>
+          </div>
+          <div class="elementgroupprop photogroup5pos">
+            <img class="photoprop shadowprop" src='images/img-shop.jpg'/>
+            <p>SHOP</p>
+          </div>
+          <div class="elementgroupprop photogroup6pos">
+            <img class="photoprop shadowprop" src='images/img-car.jpg'/>
+            <p>CAR</p>
+          </div>
+        </div>
+
+        <div class='textcontainer'>
+          <h1 class="containertextprop lefttitle">FOTO</h1>
+        </div>
+
+      </div>
+
+      <!-- Second section: VIDEO -->
+      <div class="section" id="videosection">
+
+        <div class='textcontainer'>
+          <h1 class="containertextprop">VIDEO</h1>
+        </div>
+
+        <div class='elementcontainer'>
+
+          <div class="elementgroupprop videogroup1pos">
+            <video class="videoprop video1prop shadowprop" autoplay loop>
+              <source src="videos/hyperlapse-video.mp4" type="video/mp4">
+            </video>
+            <p>HYPERLAPSE</p>
+          </div>
+
+          <div class="elementgroupprop videogroup2pos">
+            <video class="videoprop video2prop shadowprop" autoplay muted loop>
+              <source src="videos/car-igtv.mp4" type="video/mp4">
+            </video>
+            <p>IG TV</p>
+          </div>
+
+          <div class="elementgroupprop videogroup3pos">
+            <video class="videoprop video3prop shadowprop" autoplay muted loop>
+              <source src="videos/spidi-video.mp4" type="video/mp4">
+            </video>
+            <p>EVENTI</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Third section: GRAPHIC -->
+      <div class="section" id="graphicsection">
+
+        <div class='elementcontainer'>
+          <div class="elementgroupprop graphic1pos">
+            <img class="photoprop shadowprop" src='logo/logo-projectectra.svg'/>
+            <p>LOGO 1</p>
+          </div>
+          <div class="elementgroupprop graphic2pos">
+            <img class="photoprop shadowprop" src='logo/logo-alpha.svg'/>
+            <p>LOGO 2</p>
+          </div>
+          <div class="elementgroupprop graphic3pos">
+            <img class="photoprop shadowprop" src='images/img-stripes.jpg'/>
+            <p>TEXTURE 1</p>
+          </div>
+          <div class="elementgroupprop graphic4pos">
+            <img class="photoprop shadowprop" src='images/img-triangles.jpg'/>
+            <p>TEXTURE 2</p>
+          </div>
+          <div class="elementgroupprop graphic5pos">
+            <img class="smallphotoprop shadowprop" src='images/img-creative1.jpg'/>
+            <p>CREATIVA 1</p>
+          </div>
+          <div class="elementgroupprop graphic6pos">
+            <img class="smallphotoprop shadowprop" src='images/img-creative2.jpg'/>
+            <p>CREATIVA 2</p>
+          </div>
+        </div>
+
+        <div class='textcontainer'>
+          <h1 class="containertextprop lefttitle">GRAFICA</h1>
+        </div>
+
+      </div>
+
+      <!-- Forth section: WEB DESIGN -->
+      <div class="section" id="webdessection">
+        <div class='textcontainer'>
+          <h1 class="containertextprop">WEB<br>DESIGN</h1>
+        </div>
+
+        <div class='elementcontainer'>
+          <div class="elementgroupprop site1pos">
+            <img class="siteprop shadowprop" src='images/img-site-portfolio.png'/>
+            <p>PORTFOLIO</p>
+          </div>
+          <div class="elementgroupprop site2pos">
+            <img class="siteprop shadowprop" src='images/img-site-blog.png'/>
+            <p>BLOG</p>
+          </div>
+          <div class="elementgroupprop site3pos">
+            <img class="siteprop shadowprop" src='images/img-site-restaurant.png'/>
+            <p>RISTORANTI</p>
+          </div>
+          <div class="elementgroupprop site4pos">
+            <img class="siteprop shadowprop" src='images/img-site-internaldesign.png'/>
+            <p>DESIGN DI INTERNI</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fifth section: CONTACT -->
+      <div class='section' id="singupsection">
+        <h2 class="containertextprop">CONTATTI</h2>
+      </div>
+
+    </div>
+
+    <!-- That's the "go to the start" button on the right-bottom side -->
+    <a class="btngroup" href="#navbarsec" style="text-decoration:none;">Go up</a>
+
+  </body>
 </html>
