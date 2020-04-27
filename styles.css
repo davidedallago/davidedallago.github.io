@@ -563,7 +563,12 @@ p                  { border: 2px solid orange; }
   }
   .containertextprop {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 35px;
   }
 
   .homelogo {
@@ -612,6 +617,10 @@ p                  { border: 2px solid orange; }
 
   .singupcontainer {
     height: 100vh;
+  }
+
+  .container {
+    width: 80%;
   }
 
   .btn-other {
