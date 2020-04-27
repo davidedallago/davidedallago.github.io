@@ -211,13 +211,15 @@ nav a:visited:active {
   letter-spacing: 20px;
   font-weight: 200;
   color: #FFF;
-  text-shadow: 20px 20px 8px rgba(0, 0, 0, 1);
+  text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
   position: relative;
+  padding-right: 40px;
 }
 
 .homelogo {
-  width: 550px;
+  width: 250px;
   opacity: 0.9;
+  border-radius: 1000px;
 
   position: absolute;
 
@@ -225,6 +227,34 @@ nav a:visited:active {
   top: 0;
   left: 50px;
   bottom: 0;
+}
+
+#logocontainer {
+  flex-direction: column;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+#logocontainer a {
+  width: 50%;
+}
+#logocontainer h3 {
+  padding: 20px;
+  padding-left: 50px;
+  font-size: 30px;
+  border-left: 2px solid white;
+  width: 100%;
+  letter-spacing: 10px;
+}
+
+#logocontainer h3:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .elementcontainer {
