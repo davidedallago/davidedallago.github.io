@@ -265,6 +265,24 @@ nav a:visited:active {
   text-shadow: 20px 20px 8px rgba(0, 0, 0, 1);
 }
 
+.singupcontainer {
+  width: 70vw;
+
+  display: flex;
+  position: relative;
+
+  line-height: 50px;
+  text-align: center;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
 .rightalign {
   text-align: right;
 }
@@ -379,7 +397,7 @@ input[type=submit] {
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-filter: drop-shadow( 0px 0px 30px rgba(255, 255, 255, .4));
   padding: 20px;
-  width: 50%;
+  width: 550px;
   height: 80%;
   position: absolute;
   top: 0;
@@ -395,6 +413,7 @@ input[type=submit] {
 .hometitle         { border: 2px solid pink; }
 .homelogo          { border: 2px solid white; }
 .elementcontainer  { border: 5px solid aqua; }
+.singupcontainer   { border: 5px solid brown; }
 .elementgroupprop  { border: 5px solid red; }
 .textcontainer     { border: 5px solid lime; }
 .textsubcontainer  { border: 5px solid blue; }
@@ -571,6 +590,21 @@ p                  { border: 2px solid orange; }
     }
   }
 
+  .singupcontainer {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .container {
+    width: 80%;
+    height: 80%;
+    border: 2px solid white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+  }
+
   .elementgroupprop {
     height: 50%;
     margin-left: 20px;
@@ -638,15 +672,6 @@ p                  { border: 2px solid orange; }
     height: 100%;
   }
 
-  .singupcontainer {
-    height: 120vh;
-  }
-
-  .container {
-    width: 80%;
-    height: 70%;
-  }
-
   .btn-other {
     border-radius: 100px;
     padding-top: 15px;
@@ -673,13 +698,13 @@ p                  { border: 2px solid orange; }
   /* Facebook */
   .fa-instagram {
     bottom: 10px;
-    left: 110px;
-    border-radius: 20px;
+    left: 90px;
+    border-radius: 50px;
     }
   .fa-linkedin {
     bottom: 10px;
     left: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
   }
 
 }
