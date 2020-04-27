@@ -639,23 +639,24 @@ p                  { border: 2px solid orange; }
   }
 
   .singupcontainer {
-    height: 100vh;
+    height: 120vh;
   }
 
   .container {
     width: 80%;
+    height: 70%;
   }
 
   .btn-other {
     border-radius: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 80px;
     padding-right: 80px;
   }
 
   .fixedbutton {
-    padding: 30px;
+    padding: 25px;
   }
 
   .btn-go-up {
