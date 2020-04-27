@@ -263,7 +263,7 @@ nav a:visited:active {
 .containertextprop {
   width: 100%;
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
   justify-content: center;
   font-size: 50px;
   letter-spacing: 18px;
@@ -341,7 +341,7 @@ p {
   border: 2px solid rgba(255, 255, 255, 0.3);
   text-align: center;
   text-decoration: none;
-  background: #000;
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   z-index: 103;
   font-size: 20px;
@@ -349,22 +349,29 @@ p {
 }
 .fixedbutton:hover {
   opacity: 0.7;
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Facebook */
 .fa-instagram {
   bottom: 120px;
   left: 20px;
-  border-radius: 20px;
+  border-radius: 100px;
   }
 .fa-linkedin {
   bottom: 20px;
   left: 20px;
-  border-radius: 20px;
+  border-radius: 100px;
 }
 .btn-go-up {
-  bottom: 20px;
-  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  padding-left: 30px;
+  border: none;
+  width: 100vw;
+  text-align: left;
+  top: 0;
+  left: 0;
 }
 
 .btn-go-up:hover,
@@ -557,11 +564,15 @@ p                    { border: 2px solid orange; }
   display: none;
   }
   nav {
+    position: static;
     border-radius: 0px;
     margin-top: 0;
     margin-left: 0;
     width: 100vw;
     z-index: 100;
+  }
+  #logocontainer {
+    display: none;
   }
   .rightalign {
     text-align: center;
@@ -648,9 +659,11 @@ p                    { border: 2px solid orange; }
     font-size: 60px;
     line-height: 80px;
     letter-spacing: 5px;
+    height: 40%;
     text-align: center;
     position: absolute;
     margin: auto;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -692,14 +705,7 @@ p                    { border: 2px solid orange; }
   }
 
   .btn-go-up {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    color: rgb(255, 255, 255)
+    display: none;
   }
 
   /* Facebook */
@@ -721,6 +727,7 @@ p                    { border: 2px solid orange; }
   nav {
     padding-left: 2em;
     padding-right: 2em;
+    display: none;
   }
   nav li {
     width: auto;
