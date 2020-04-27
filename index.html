@@ -3,12 +3,23 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Davide Dal Lago</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='styles.css'/>
     <meta name='viewport'
     content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <script src="jquery-3.5.0.js"></script>
   </head>
   <body>
+
+    <!-- Used this div to create a load screen on the site -->
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
 
     <!-- Used this div to set a static background on the site -->
     <div class="background">
