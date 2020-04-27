@@ -745,40 +745,40 @@ p                    { border: 2px solid orange; }
   }
 
   .photogroup1pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 2vw;
   }
   .photogroup2pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 20vw;
   }
   .photogroup3pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 38vw;
   }
   .photogroup4pos {
-    top: 500px;
+    top: 50vh;
     left: 2vw;
   }
   .photogroup5pos {
-    top: 500px;
+    top: 50vh;
     left: 20vw;
   }
   .photogroup6pos {
-    top: 500px;
+    top: 50vh;
     left: 38vw;
   }
 
   .videogroup1pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 3vw;
   }
   .videogroup2pos {
-    bottom: 200px;
+    bottom: 25vh;
     left: 35vw;
   }
   .videogroup3pos {
-    top: 500px;
+    top: 50vh;
     left: 3vw;
   }
 
@@ -793,27 +793,27 @@ p                    { border: 2px solid orange; }
   }
 
   .graphic1pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 2vw;
   }
   .graphic2pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 20vw;
   }
   .graphic3pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 38vw;
   }
   .graphic4pos {
-    top: 500px;
+    top: 50vh;
     left: 2vw;
   }
   .graphic5pos {
-    top: 500px;
+    top: 50vh;
     left: 20vw;
   }
   .graphic6pos {
-    top: 500px;
+    top: 50vh;
     left: 38vw;
   }
 
@@ -822,22 +822,22 @@ p                    { border: 2px solid orange; }
   }
 
   .site1pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 4vw;
   }
 
   .site2pos {
-    bottom: 500px;
+    bottom: 50vh;
     left: 30vw;
   }
 
   .site3pos {
-    top: 500px;
+    top: 50vh;
     left: 4vw;
   }
 
   .site4pos {
-    top: 500px;
+    top: 50vh;
     left: 30vw;
   }
 }
