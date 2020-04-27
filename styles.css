@@ -228,7 +228,7 @@ nav a:visited:active {
 }
 
 .elementcontainer {
-  width: 70vw;
+  width: 60vw;
 
   display: flex;
   position: relative;
@@ -237,8 +237,15 @@ nav a:visited:active {
   text-align: center;
 }
 
+.subelementcontainer {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+
 .textcontainer {
-  width: 30vw;
+  width: 40vw;
+  padding: 50px;
 
   display: flex;
   align-items: center;
@@ -258,8 +265,8 @@ nav a:visited:active {
   margin-bottom: 30px;
   text-align: left;
   justify-content: center;
-  font-size: 60px;
-  letter-spacing: 20px;
+  font-size: 50px;
+  letter-spacing: 18px;
   font-weight: lighter;
   color: #FFF;
   text-shadow: 20px 20px 8px rgba(0, 0, 0, 1);
@@ -267,6 +274,7 @@ nav a:visited:active {
 
 .singupcontainer {
   width: 70vw;
+  height: 100%;
 
   display: flex;
   position: relative;
@@ -292,9 +300,9 @@ nav a:visited:active {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 200;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   line-height: 70px;
   color: #FFF;
   text-shadow: 20px 20px 8px rgba(0, 0, 0, 1);
@@ -302,7 +310,7 @@ h3 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 200;
   letter-spacing: 5px;
   line-height: 35px;
@@ -311,8 +319,6 @@ p {
   z-index: 98;
   margin-bottom: 20px;
 }
-
-
 
 .shadowprop {
   -webkit-filter: drop-shadow( 20px 20px 8px rgba(0, 0, 0, .5)) !important;
@@ -408,18 +414,19 @@ input[type=submit] {
 }
 
 /*
-.section           { border: 3px solid yellow; }
-.homecontainer     { border: 5px solid violet; }
-.hometitle         { border: 2px solid pink; }
-.homelogo          { border: 2px solid white; }
-.elementcontainer  { border: 5px solid aqua; }
-.singupcontainer   { border: 5px solid brown; }
-.elementgroupprop  { border: 5px solid red; }
-.textcontainer     { border: 5px solid lime; }
-.textsubcontainer  { border: 5px solid blue; }
-.containertextprop { border: 5px solid magenta; }
-.videoprop         { border: 2px solid green; }
-p                  { border: 2px solid orange; }
+.section             { border: 3px solid yellow; }
+.homecontainer       { border: 5px solid violet; }
+.hometitle           { border: 2px solid pink; }
+.homelogo            { border: 2px solid white; }
+.elementcontainer    { border: 5px solid aqua; }
+.subelementcontainer { border: 5px solid coral; }
+.singupcontainer     { border: 5px solid brown; }
+.elementgroupprop    { border: 5px solid red; }
+.textcontainer       { border: 5px solid lime; }
+.textsubcontainer    { border: 5px solid blue; }
+.containertextprop   { border: 5px solid magenta; }
+.videoprop           { border: 2px solid green; }
+p                    { border: 2px solid orange; }
 
 
 /* Mobile Styles */
@@ -738,41 +745,41 @@ p                  { border: 2px solid orange; }
   }
 
   .photogroup1pos {
-    top: 55vh;
+    bottom: 500px;
     left: 2vw;
   }
   .photogroup2pos {
-    top: 20vh;
-    left: 2vw;
+    bottom: 500px;
+    left: 20vw;
   }
   .photogroup3pos {
-    top: 55vh;
-    left: 20vw;
+    bottom: 500px;
+    left: 38vw;
   }
   .photogroup4pos {
-    top: 20vh;
-    left: 20vw;
+    top: 500px;
+    left: 2vw;
   }
   .photogroup5pos {
-    top: 55vh;
-    left: 40vw;
+    top: 500px;
+    left: 20vw;
   }
   .photogroup6pos {
-    top: 20vh;
-    left: 40vw;
+    top: 500px;
+    left: 38vw;
   }
 
   .videogroup1pos {
-    top: 9.3vh;
-    left: 5vw;
+    bottom: 500px;
+    left: 3vw;
   }
   .videogroup2pos {
-    top: 15vh;
-    left: 40vw;
+    bottom: 200px;
+    left: 35vw;
   }
   .videogroup3pos {
-    top: 54vh;
-    left: 5vw;
+    top: 500px;
+    left: 3vw;
   }
 
   .video1prop {
@@ -785,33 +792,29 @@ p                  { border: 2px solid orange; }
     width: 27vw;
   }
 
-  .smallphotoprop {
-    width: 10vw;
-  }
-
   .graphic1pos {
-    top: 15vh;
-    left: 6vw;
+    bottom: 500px;
+    left: 2vw;
   }
   .graphic2pos {
-    top: 50vh;
-    left: 6vw;
+    bottom: 500px;
+    left: 20vw;
   }
   .graphic3pos {
-    top: 15vh;
-    left: 25vw;
+    bottom: 500px;
+    left: 38vw;
   }
   .graphic4pos {
-    top: 50vh;
-    left: 25vw;
+    top: 500px;
+    left: 2vw;
   }
   .graphic5pos {
-    top: 15vh;
-    left: 44vw;
+    top: 500px;
+    left: 20vw;
   }
   .graphic6pos {
-    top: 50vh;
-    left: 44vw;
+    top: 500px;
+    left: 38vw;
   }
 
   .siteprop {
@@ -819,22 +822,22 @@ p                  { border: 2px solid orange; }
   }
 
   .site1pos {
-    top: 15vh;
-    left: 6vw;
+    bottom: 500px;
+    left: 4vw;
   }
 
   .site2pos {
-    top: 55vh;
-    left: 6vw;
+    bottom: 500px;
+    left: 30vw;
   }
 
   .site3pos {
-    top: 15vh;
-    left: 32vw;
+    top: 500px;
+    left: 4vw;
   }
 
   .site4pos {
-    top: 55vh;
-    left: 32vw;
+    top: 500px;
+    left: 30vw;
   }
 }
