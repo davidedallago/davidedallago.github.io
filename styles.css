@@ -45,6 +45,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -275,7 +280,7 @@ nav a:visited:active {
 
 .textcontainer {
   width: 40vw;
-  padding: 50px;
+  padding: 30px;
 
   display: flex;
   align-items: center;
@@ -303,7 +308,7 @@ nav a:visited:active {
 }
 
 .singupcontainer {
-  width: 70vw;
+  width: 50vw;
   height: 100%;
 
   display: flex;
@@ -319,6 +324,10 @@ nav a:visited:active {
   margin: auto;
   top: 0;
   bottom: 0;
+}
+
+.contactstexcontainer {
+  width: 50vw;
 }
 
 .rightalign {
@@ -355,6 +364,10 @@ p {
 .shadowprop {
   -webkit-filter: drop-shadow( 20px 20px 8px rgba(0, 0, 0, .5)) !important;
   border-radius: 5px !important;
+}
+
+.nodecoration {
+  text-decoration: none;
 }
 
 .btn-other {
@@ -412,6 +425,20 @@ input[type=submit]:hover {
   opacity: 0.5;
 }
 
+.container {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-filter: drop-shadow( 0px 0px 30px rgba(255, 255, 255, .4));
+  padding: 20px;
+  width: 400px;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 3vw;
+  margin: auto;
+}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   background-color: rgba(0, 0, 0, 0.5);
@@ -436,23 +463,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* Form container */
-.container {
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-filter: drop-shadow( 0px 0px 30px rgba(255, 255, 255, .4));
-  padding: 20px;
-  width: 550px;
-  height: 80%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-/*
+/*Border Debug
 .section             { border: 3px solid yellow; }
 .homecontainer       { border: 5px solid violet; }
 .hometitle           { border: 2px solid pink; }
@@ -468,7 +479,7 @@ input[type=submit] {
 .leftalign           { border: 2px solid white; }
 .rightalign          { border: 2px solid olive; }
 p                    { border: 2px solid orange; }
-
+/**/
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
@@ -537,6 +548,10 @@ p                    { border: 2px solid orange; }
 
   .containertextprop {
     font-size: 30px;
+  }
+
+  .videoelementcontainer {
+    display: none;
   }
 
   .singupcontainer {
@@ -674,6 +689,9 @@ p                    { border: 2px solid orange; }
     text-align: center;
     font-size: 40px;
   }
+  .videoelementcontainer {
+    display: none;
+  }
   .btn-other {
     border-radius: 100px;
     padding-top: 15px;
@@ -749,6 +767,7 @@ p                    { border: 2px solid orange; }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  ::-webkit-scrollbar,
   nav {
     display: none;
   }
