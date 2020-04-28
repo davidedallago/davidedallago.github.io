@@ -475,6 +475,7 @@ input[type=submit] {
 .textcontainer       { border: 5px solid lime; }
 .textsubcontainer    { border: 5px solid blue; }
 .containertextprop   { border: 5px solid magenta; }
+.container           { border: 2px solid white; }
 .videoprop           { border: 2px solid green; }
 .leftalign           { border: 2px solid white; }
 .rightalign          { border: 2px solid olive; }
@@ -562,7 +563,6 @@ p                    { border: 2px solid orange; }
   .container {
     width: 80%;
     height: 80%;
-    border: 2px solid white;
     top: 0;
     left: 0;
     right: 0;
@@ -736,7 +736,6 @@ p                    { border: 2px solid orange; }
   .container {
     width: 80%;
     height: 80%;
-    border: 2px solid white;
     top: 0;
     left: 0;
     right: 0;
