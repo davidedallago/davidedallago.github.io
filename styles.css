@@ -331,6 +331,21 @@ nav a:visited:active {
 
 .contactstexcontainer {
   width: 100vw;
+  
+  
+  display: flex;
+  position: relative;
+
+  line-height: 50px;
+  text-align: center;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  top: 0;
+  bottom: 0;
 }
 
 .rightalign {
