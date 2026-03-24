@@ -1,1 +1,273 @@
-<html><head><link rel='stylesheet' href='styles.css'></head><body><header class='nav'><h1>Davide Dal Lago - MODERNIZED</h1></header><main class='grid'> <div class='card'><h2>Portfolio</h2></div><div class='card'><h2>Video</h2></div></main></body></html>
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Davide Dal Lago - V2</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport'
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <script src="jquery-3.5.0.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+
+    <!-- Used this div to create a load screen on the site -->
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+
+    <!-- Used this div to set a static background on the site -->
+    <div class="background" value="5">
+    </div>
+
+    <!-- First we have the header of the site containing the navbar and the introsection of the site-->
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <ul>
+          <li class='selected'>HOME</li>
+          <li><a href='#photosection'>Photo</a></li>
+          <li><a href='#videosection'>Video</a></li>
+          <li><a href='#graphicsection'>Graphic</a></li>
+          <li><a href='#webdessection'>Web Design</a></li>
+          <li><a href='#singupsection'>Contacts</a></li>
+        </ul>
+      </nav>
+
+      <!-- Intro section -->
+      <div class="section">
+
+        <div class='homecontainer' id="navbarsec">
+          <h1 class="hometitle">DAVIDE<br>DAL LAGO - V5</h1>
+        </div>
+
+        <div class='homecontainer' id="logocontainer">
+          <a href='#photosection' class="nodecoration"><h3>PHOTO</h3></a>
+          <a href='#videosection' class="nodecoration"><h3>VIDEO</h3></a>
+          <a href='#graphicsection' class="nodecoration"><h3>GRAPHIC</h3></a>
+          <a href='#webdessection' class="nodecoration"><h3>WEB DESIGN</h3></a>
+          <a href='#singupsection' class="nodecoration"><h3>CONTACTS</h3></a>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Here start the various sections of the site -->
+    <div class='page'>
+
+      <!-- First section: PHOTO -->
+      <div class="section fadebackground" id="photosection">
+
+        <div class='elementcontainer'>
+            <div class="elementgroupprop photogroupleftdist1 photogroupbottomdist">
+              <img class="photodim shadowprop" src='images/img-urban.jpg'/>
+              <h3>URBAN</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist2 photogroupbottomdist">
+              <img class="photodim shadowprop" src='images/img-portrait.jpg'/>
+              <h3>PORTRAIT</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist3 photogroupbottomdist">
+              <img class="photodim shadowprop" src='images/img-nature.jpg'/>
+              <h3>NATURE</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist1 photogrouptopdist">
+              <img class="photodim shadowprop" src='images/img-modelling.jpg'/>
+              <h3>FASHION</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist2 photogrouptopdist">
+              <img class="photodim shadowprop" src='images/img-shop.jpg'/>
+              <h3>SHOP</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist3 photogrouptopdist">
+              <img class="photodim shadowprop" src='images/img-car.jpg'/>
+              <h3>CAR</h3>
+            </div>
+        </div>
+
+        <div class='textcontainer'>
+            <h1 class="containertextprop leftalign">PHOTO</h1>
+            <p class="leftalign"> Nature, portraits, fashion, shops, sports,
+            urban or cars. Photo shoots and image manipulation using tools
+            such as Photoshop or Lightroom.</p>
+            <div class="leftalign">
+              <a class="btn-other" href="https://www.instagram.com/davide.dallago/">VIEW MORE</a>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Second section: VIDEO -->
+      <div class="section" id="videosection">
+
+        <div class='textcontainer'>
+            <h1 class="containertextprop rightalign">VIDEO</h1>
+            <p class="rightalign">Direction and editing of corporate videos,
+            advertising or events. In traditional landscape or portrait format
+            to make the most of services such as Instagram Story or IGTV.</p>
+            <div class="rightalign">
+              <a class="btn-other" href="https://www.instagram.com/davide.dallago/">VIEW MORE</a>
+            </div>
+        </div>
+
+        <div class='elementcontainer videoelementcontainer'>
+            <div class="elementgroupprop videogroup1pos">
+              <video class="videoprop video1prop shadowprop" playsinline controls loop>
+                <source src="videos/hyperlapse-video.mp4" type="video/mp4">
+              </video>
+              <h3>HYPERLAPSE</h3>
+            </div>
+            <div class="elementgroupprop videogroup2pos">
+              <video class="videoprop video2prop shadowprop" playsinline controls loop>
+                <source src="videos/car-igtv.mp4" type="video/mp4">
+              </video>
+              <h3>IG TV</h3>
+            </div>
+            <div class="elementgroupprop videogroup3pos">
+              <video class="videoprop video3prop shadowprop" playsinline controls loop>
+                <source src="videos/spidi-video.mp4" type="video/mp4">
+              </video>
+              <h3>EVENTS</h3>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Third section: GRAPHIC -->
+      <div class="section fadebackground" id="graphicsection">
+
+        <div class='elementcontainer'>
+
+            <div class="elementgroupprop photogroupleftdist1 photogroupbottomdist">
+              <img class="photodim shadowprop" src='logo/logo-projectectra.svg'/>
+              <h3>LOGO</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist2 photogroupbottomdist">
+              <img class="photodim shadowprop" src='images/img-stripes.jpg'/>
+              <h3>TEXTURE</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist3 photogroupbottomdist">
+              <img class="photodim shadowprop" src='images/img-creative1.jpg'/>
+              <h3>CREATIVE</h3>
+            </div>
+
+
+            <div class="elementgroupprop photogroupleftdist1 photogrouptopdist">
+              <img class="photodim shadowprop" src='logo/logo-alpha.svg'/>
+              <h3>LOGO</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist2 photogrouptopdist">
+              <img class="photodim shadowprop" src='images/img-triangles.jpg'/>
+              <h3>TEXTURE</h3>
+            </div>
+            <div class="elementgroupprop photogroupleftdist3 photogrouptopdist">
+              <img class="photodim shadowprop" src='images/img-creative2.jpg'/>
+              <h3>CREATIVE</h3>
+            </div>
+
+      </div>
+
+        <div class='textcontainer'>
+            <h1 class="containertextprop leftalign">GRAPHIC</h1>
+            <p class="leftalign">Logos, textures, presentations, vector graphics
+            and all that you need to valorize the brand and image of your company.</p>
+            <div class="leftalign">
+              <a class="btn-other" href="https://www.instagram.com/davide.dallago/">VIEW MORE</a>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Forth section: WEB DESIGN -->
+      <div class="section" id="webdessection">
+
+        <div class='textcontainer'>
+            <h1 class="containertextprop rightalign webdesigntext">WEB<br>DESIGN</h1>
+            <p class="rightalign">Whether it's a company, a restaurant,
+              an interior design shop or your own portfolio or blog,
+              I have the right solution for you.</p>
+            <div class="rightalign">
+              <a class="btn-other" href="https://github.com/davidedallago/" target="_blank">VIEW MORE</a>
+            </div>
+        </div>
+
+        <div class='elementcontainer'>
+            <div class="elementgroupprop site1pos">
+              <img class="siteprop shadowprop" src='images/img-site-portfolio.jpg'/>
+              <h3>PORTFOLIO</h3>
+            </div>
+            <div class="elementgroupprop site2pos">
+              <img class="siteprop shadowprop" src='images/img-site-blog.jpg'/>
+              <h3>BLOG</h3>
+            </div>
+            <div class="elementgroupprop site3pos">
+              <img class="siteprop shadowprop" src='images/img-site-restaurant.jpg'/>
+              <h3>RESTAURANT</h3>
+            </div>
+            <div class="elementgroupprop site4pos">
+              <img class="siteprop shadowprop" src='images/img-site-internaldesign.jpg'/>
+              <h3>INTERIOR</h3>
+            </div>
+        </div>
+      </div>
+
+      <div id='singupsection' class='textcontainer contactstexcontainer fadebackground'>
+
+        <h1 class="containertextprop ">CONTACTS</h1>
+
+        <a class="nodecoration" href="https://github.com/davidedallago/" target="_blank">
+          <p>&#9658; <strong>GitHub</strong> profile</p>
+        </a>
+
+        <a class="nodecoration" href="https://www.instagram.com/davide.dallago/" target="_blank">
+            <p>&#9658; <strong>Instagram</strong> profile</p>
+        </a>
+
+        <a class="nodecoration" href="https://www.linkedin.com/in/davide-dal-lago-b96873166/" target="_blank">
+            <p>&#9658; <strong>LinkedIn</strong> profile</p>
+        </a>
+
+        <p class="nodecoration">&#9658; <strong>d.dallago97@gmail.com</strong></p>
+
+      </div>
+
+    </div>
+
+    <!-- That's the "go to the start" button on the right-bottom side -->
+    <a href="https://www.instagram.com/davide.dallago/" class="fixedbutton fa fa-instagram" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/davide-dal-lago-b96873166/" class="fixedbutton fa fa-linkedin" target="_blank"></a>
+    <a class="fixedbutton btn-go-up" href="#navbarsec" class="nodecoration">&#9651;</a>
+
+  </body>
+</html>
+
+<!------------------------------------------>
+<!--                                      -->
+<!--      DAVIDE DAL LAGO 22/03/2022      -->
+<!--                                      -->
+<!------------------------------------------>
+<!-- V4 -->
