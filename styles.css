@@ -37,6 +37,7 @@ body {
   font-size: 18px;
   line-height: 1.8em;
   color: rgba(255, 255, 255, 1);
+  background-color: #2b1c3e;
 }
 
 .loader-wrapper {
